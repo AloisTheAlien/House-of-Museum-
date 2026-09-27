@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="styles.css" rel="stylesheet" />
+<title>Museum Gallery</title>
+</head>
+<body>
+<header>
+  <nav>
+    <ul>
+      <li><a href="#About us">About Us</a></li>
+      <li><a href="#Main-Page">Main Page</a></li>
+      <li><a href="#Contact Us">Contact Us</a></li>
+    </ul>
+  </nav>
+</header>
+<div class="search-bar">
+    <input type="text" placeholder="Search paintnigs..." id="search-input">
+    <button type="submit">Search</button>
+  </div>
+ <nav>
+  <div class="top-button">
+   <a href="#top">
+    <input type="button" value="Top" id="button-input">
+   </a>
+  </div>
+ </nav>
+ <div class="pop-up">
+  <img id="pop-up-img" src="https://static.vecteezy.com/system/resources/thumbnails/042/326/630/small/sticker-of-a-cartoon-speech-bubble-png.png">
+ </div>
+<section>
+ <div id="#Main-Page">
+   <img id="gallery-header" src="https://t3.ftcdn.net/jpg/03/35/05/36/360_F_335053688_zDvoXBjBRuhIueQZ2gFpNxhnKl3FfhZU.jpg">
+ </div>
+ <div class="gallery-item">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/1871_Vereshchagin_Apotheose_des_Krieges_anagoria.JPG/960px-1871_Vereshchagin_Apotheose_des_Krieges_anagoria.JPG" alt="img not found" id="item-1"> 
+   <div class="gallery-item">
+    <div id="painting-name-1"><p>The Apotheosis of War <i>(1871)</i> by <i>Vasily Vereshchagin </i> </p></div>
+     <p>The Apotheosis of War (Russian: Апофеоз войны) is an 1871 painting by Russian war artist Vasily Vereshchagin. Following his completion of the painting, Vereshchagin dedicated his work "to all great conquerors, past, present and to come". Done in oil on canvas, the painting depicts a pile of skulls outside the walls of a city in Central Asia. It is considered part of Vereshchagin's Turkestan Series.</p>
+ </div>
+  </div>
+<br>
+ <div class="gallery-item">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Gustave_Courbet_-_Le_Désespéré_%281843%29.jpg/960px-Gustave_Courbet_-_Le_Désespéré_%281843%29.jpg" alt="img not found" id="item-2">
+   <div class="gallery-item">
+    <div id="painting-name-2"><p>Le Désespéré <i>(1843-1845)</i> by <i>Gustave Courbet</i></p></div>
+     <p>Le Désespéré (The Desperate Man) is an oil-on-canvas self-portrait by Gustave Courbet, produced from 1843 to 1845, during his stay in Paris. It depicts Courbet as a young man staring in front of him with wide eyes, grasping his hair in desperation. It is now in the private collection of the Conseil Investissement Art BNP Paribas but was displayed in the Musée d'Orsay's 2007 Courbet exhibition.</p>
+ </div>
+  </div>
+<br>
+ <div class="gallery-item">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Iván_el_Terrible_y_su_hijo%2C_por_Iliá_Repin.jpg/960px-Iván_el_Terrible_y_su_hijo%2C_por_Iliá_Repin.jpg" alt="img not found" id="item-3"> 
+   <div class="gallery-item">
+    <div id="painting-name-3"><p>Ivan the Terrible and His Son Ivan <i>(1883-1885)</i> by <i>Ilya Repin</i></p></div>
+     <p>Ivan the Terrible and His Son Ivan on 16 November 1581[a] is a painting by Russian realist artist Ilya Repin made between 1883 and 1885. It depicts the grief-stricken Russian tsar Ivan the Terrible cradling his dying son, the Tsarevich Ivan Ivanovich, shortly after Ivan the Terrible had dealt a fatal blow to his son's head in a fit of anger. The painting portrays the anguish and remorse on the face of the elder Ivan and the shock and heartbreak of the dying Tsarevich, shedding a tear at the unexpected betrayal and shock of having been killed at his father's hands.</p>
+ </div>
+  </div>
+
+ <form action="/server">
+  <h1 id="gallery-header-2">Request A Painting</h1>
+   <label for="email">E-mail: <input type="email" class="form-input" id="email"></label>
+   <label for="title">Painting Title: <input type="text" class="form-input" id="title" name="option"></label>
+   <label for="size">Size: <input type="text" class="form-input" id="size" name="option"></label>
+   <label for="amount">Amount: <input type="number" class="form-input" id="amount" min="0" max="10"></label>
+   <label for="suggestions">Suggestions:</label>
+   <textarea name="suggestions" id="suggestions" class="form-input" rows="3" cols="30" ></textarea>
+   <label for="send"><input type="submit" class="form-input" value="Send"></label>
+ </form>
+</section>
+
+<footer>
+ <h2>Come Again!</h2>
+  <ul>
+   <li><a href="#About Us">About Us</a></li>
+   <li><a href="#Main-Page">Main Page</a></li>
+   <li><a href="#Search">Search</a></li>
+   <li><a href="#Contact Us">Contact Us</a></li>
+   <li>CopyRight</li>
+ </ul>
+</footer>
+</body>
+</html>
+ 
