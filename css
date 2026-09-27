@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color:rgb(255, 255, 255); 
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#gallery-header {
+  position: sticky; 
+  top: 0;
+}
+
+.gallery-item img {
+  height: 400px;
+  width: 600px; 
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.gallery-item {
+  margin: 10px 10px;
+  display: inline-block;
+  position: relative;
+}
+
+.gallery-item p {
+  height: 100%;
+  font-family: "Monospace", Monaco;
+  font-size: 12px;
+}
+
+.gallery-item > div#painting-name-1, div#painting-name-2, div#painting-name-3{
+  box-shadow: 2px 5px 15px 0px rgb(0, 0, 0, 0.20);
+  border-radius: 20px;
+  margin-bottom: 3px;
+  height: 5%;
+  font-weight: 900;
+}
+
+#gallery-header{
+  width: 200px;
+  max-width: 800px;
+  height: auto;
+  display: block;
+} 
+
+#gallery-header > p {
+  color: #5e96ff;
+  font-weight: 800;
+}
+#gallery-header-2 {
+  margin: 10%;
+  font-family: Gill Sans, sans-serif;
+  font-size: 24px;
+  position: relative;
+  left: 150px;
+}
+
+label, textarea {
+  display: block;
+  margin-bottom: 10px; 
+  margin-left: 10px;
+  font-family: Gill Sans, sans-serif;
+  position: relative;
+  left: 150px;
+}
+
+footer > h2 {
+  margin: 5%;
+  margin-left: 12%;
+  font-family: Gill Sans, sans-serif;
+  font-size: 24px;
+  position: relative;
+  left: 150px;
+}
+
+footer > ul {
+  position: relative;
+  left: 240px;
+  list-style: none;
+  font-family: Gill Sans, sans-serif;
+  font-size: 14px;
+}
+
+nav .top-button input{
+  border-radius: 5px;
+  width: 40px;
+  padding: 2px 6px;
+  position: fixed; 
+  background-color: #afc2e7;
+  color: white;
+  left: 325px;
+  top: 325px;
+  z-index: 999;
+}
+
+nav, ul {
+  position: relative;
+  left: 100px;
+  top: 60px;
+  list-style: none;
+  font-family: Gill Sans, sans-serif;
+  font-size: 14px; 
+}
+
+.search-bar {
+  margin: 2px auto;
+  border: 5px;
+  gap: 8px;
+  position: sticky; 
+  z-index: 1;  
+  top: 0;
+  background-color: white;
+  display: inline-flex;
+}
+
+.search-bar input {
+  border-radius: 10px;
+  padding: 8px 12px;
+  width: 200px;
+  border: solid 1px;
+  font-size: 9px;
+  height: 30px;
+}
+
+.search-bar button {
+  border-radius: 20px;
+  padding: 8px 12px; 
+  cursor: pointer; 
+  background-color: #afc2e7;
+  color: white;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.pop-up {
+  position: absolute;
+  top: 10px;
+  left: 450px;
+}
+
+#pop-up-img{
+  width: 100px;
+  height: 100px;
+  transform: scaleX(-1);
+}
